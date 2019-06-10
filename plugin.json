@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Payment methods",
+  "FriendlyName": "GTPay",
+  "SystemName": "Payments.GTPay",
+  "Version": "1.51",
+  "SupportedVersions": [ "4.20" ],
+  "Author": "Olugbenga Dare",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Payments.GTPay.dll",
+  "Description": "This plugin allows paying with GTPay"
+}

@@ -1,0 +1,43 @@
+﻿@model Nop.Plugin.Payments.GTPay.Models.ReturnPaymentInfoModel
+@{
+    Layout = "_ColumnsOne";
+
+    //title
+    Html.AddTitleParts("Payment Information");
+    //page class
+    Html.AppendPageCssClassParts("html-checkout-page");
+    Html.AppendPageCssClassParts("html-order-completed-page");
+}
+
+<div class="page checkout-page order-completed-page">   
+    <div class="page-title">
+        <h1>GTPay Payment Declined</h1>
+    </div>
+    <div class="page-body checkout-data">      
+        <div class="section order-completed">
+            <div class="title">
+                <strong>Payment is declined</strong>
+            </div>
+            <div class="details">
+                <div class="order-number">
+                    <strong>Order Number: @Html.Raw(Model.OrderId.ToString())</strong>
+                </div>
+                <div class="order-number">
+                    <strong>Description:  @Html.Raw(Model.DescriptionText)</strong>
+                </div>
+                <div class="order-number">
+                    <strong>Status Code: @Html.Raw(Model.StatusCode)</strong>
+                </div>
+                <div class="order-number">
+                    <strong>Message: @Html.Raw(Model.StatusMessage)</strong>
+                </div>
+                <div class="details-link">
+                    <a href="@Url.RouteUrl("OrderDetails", new { orderID = Model.OrderId })">@T("Checkout.PlacedOrderDetails")</a>
+                </div>
+            </div>
+            <div class="buttons">
+                <input type="button" value="@T("Checkout.ThankYou.Continue")" class="button-1 order-completed-continue-button" onclick="setLocation('@Url.RouteUrl("HomePage")')" />
+            </div>
+        </div>
+    </div>
+</div>

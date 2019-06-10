@@ -1,0 +1,14 @@
+C:\Users\olugb\Source\Repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\plugin.json
+C:\Users\olugb\Source\Repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\Configure.cshtml
+C:\Users\olugb\Source\Repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\PaymentInfo.cshtml
+C:\Users\olugb\Source\Repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\_ViewImports.cshtml
+C:\Users\olugb\Source\Repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\logo.jpg
+C:\Users\olugb\Source\Repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.deps.json
+C:\Users\olugb\Source\Repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.dll
+C:\Users\olugb\Source\Repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.pdb
+C:\Users\olugb\Source\Repos\eShop\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Release\netcoreapp2.1\Nop.Plugin.Payments.PayPalStandard.csproj.CoreCompileInputs.cache
+C:\Users\olugb\Source\Repos\eShop\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Release\netcoreapp2.1\Nop.Plugin.Payments.PayPalStandard.AssemblyInfoInputs.cache
+C:\Users\olugb\Source\Repos\eShop\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Release\netcoreapp2.1\Nop.Plugin.Payments.PayPalStandard.AssemblyInfo.cs
+C:\Users\olugb\Source\Repos\eShop\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Release\netcoreapp2.1\Nop.Plugin.Payments.PayPalStandard.csproj.CopyComplete
+C:\Users\olugb\Source\Repos\eShop\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Release\netcoreapp2.1\Nop.Plugin.Payments.PayPalStandard.dll
+C:\Users\olugb\Source\Repos\eShop\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Release\netcoreapp2.1\Nop.Plugin.Payments.PayPalStandard.pdb

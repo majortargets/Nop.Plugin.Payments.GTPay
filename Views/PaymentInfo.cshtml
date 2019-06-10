@@ -1,0 +1,13 @@
+﻿@inject Nop.Core.IWebHelper webHelper
+@{
+    Layout = "";
+}
+    <div class="row">
+        <div class="col-md-2">
+            <img src="@Url.Content($"{webHelper.GetStoreLocation()}Plugins/Payments.GTPay/logo.jpg")" alt="GTPay" />            
+        </div>
+        <div class="col-md-8">
+            <b>@T("Plugins.Payments.GTPay.Fields.RedirectionTip")</b>
+        </div>
+    </div>
+

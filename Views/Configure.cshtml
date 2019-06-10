@@ -1,0 +1,94 @@
+﻿@model Nop.Plugin.Payments.GTPay.Models.ConfigurationModel
+@inject Nop.Core.IWebHelper webHelper
+@{
+    Layout = "_ConfigurePlugin";
+}
+
+@await Component.InvokeAsync("StoreScopeConfiguration")
+
+@*<script>
+	$(document).ready(function () {
+        $("#@Html.IdFor(model => model.PassProductNamesAndTotals)").click(togglePassProductNamesAndTotals);
+	    togglePassProductNamesAndTotals();
+	});
+
+    function togglePassProductNamesAndTotals() {
+        warningValidation('@Url.Action("RoundingWarning", "PaymentGTPay")', '@Html.NameFor(model => model.PassProductNamesAndTotals)',
+            { passProductNamesAndTotals: $('#@Html.IdFor(model => model.PassProductNamesAndTotals)').is(':checked') });
+    }
+</script>*@
+
+<form asp-controller="PaymentGTPay" asp-action="Configure" method="post">
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                @Html.Raw(T("Plugins.Payments.GTPay.Instructions", $"{webHelper.GetStoreLocation()}Plugins/PaymentGTPay/PaymentHandler"))
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="UseSandbox_OverrideForStore" asp-input="UseSandbox" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="UseSandbox" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="UseSandbox" />
+                        <span asp-validation-for="UseSandbox"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="Title_OverrideForStore" asp-input="Title" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="Title" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="Title" />
+                        <span asp-validation-for="Title"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="Description_OverrideForStore" asp-input="Description" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="Description" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="Description" />
+                        <span asp-validation-for="Description"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="WebPayMerchantID_OverrideForStore" asp-input="WebPayMerchantID" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="WebPayMerchantID" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="WebPayMerchantID" />
+                        <span asp-validation-for="WebPayMerchantID"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="GTPayMerchantID_OverrideForStore" asp-input="GTPayMerchantID" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="GTPayMerchantID" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="GTPayMerchantID" />
+                        <span asp-validation-for="GTPayMerchantID"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="HashKey_OverrideForStore" asp-input="HashKey" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="HashKey" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="HashKey" />
+                        <span asp-validation-for="HashKey"></span>
+                    </div>
+                </div>              
+                <div class="form-group">
+                    <div class="col-md-9 col-md-offset-3">
+                        <input type="submit" name="save" class="btn bg-primary" value="@T("Admin.Common.Save")" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

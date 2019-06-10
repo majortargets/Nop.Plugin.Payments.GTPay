@@ -1,0 +1,15 @@
+C:\Users\olugb\Source\repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.GTPay\plugin.json
+C:\Users\olugb\Source\repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.GTPay\Views\Configure.cshtml
+C:\Users\olugb\Source\repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.GTPay\Views\PaymentInfo.cshtml
+C:\Users\olugb\Source\repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.GTPay\Views\_ViewImports.cshtml
+C:\Users\olugb\Source\repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.GTPay\logo.jpg
+C:\Users\olugb\Source\repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.GTPay\Nop.Plugin.Payments.GTPay.deps.json
+C:\Users\olugb\Source\repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.GTPay\Nop.Plugin.Payments.GTPay.dll
+C:\Users\olugb\Source\repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.GTPay\Nop.Plugin.Payments.GTPay.pdb
+C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\obj\Release\netcoreapp2.1\Nop.Plugin.Payments.GTPay.csproj.CoreCompileInputs.cache
+C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\obj\Release\netcoreapp2.1\Nop.Plugin.Payments.GTPay.AssemblyInfoInputs.cache
+C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\obj\Release\netcoreapp2.1\Nop.Plugin.Payments.GTPay.AssemblyInfo.cs
+C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\obj\Release\netcoreapp2.1\Nop.Plugin.Payments.GTPay.csproj.CopyComplete
+C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\obj\Release\netcoreapp2.1\Nop.Plugin.Payments.GTPay.dll
+C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\obj\Release\netcoreapp2.1\Nop.Plugin.Payments.GTPay.pdb
+C:\Users\olugb\Source\repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.GTPay\Views\ReturnPaymentInfo.cshtml

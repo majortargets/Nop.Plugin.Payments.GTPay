@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Nop.Plugin.Payments.GTPay</id>
+    <version>1.0.0</version>
+    <authors>Nop Solutions, Ltd</authors>
+    <owners>Nop Solutions, Ltd</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://www.nopcommerce.com/</projectUrl>
+    <description>Package Description</description>
+    <copyright>Copyright © Nop Solutions, Ltd</copyright>
+    <repository type="Git" url="https://github.com/nopSolutions/nopCommerce" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Nop.Web.Framework" version="4.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp2.1/logo.jpg" buildAction="Content" />
+      <files include="any/netcoreapp2.1/plugin.json" buildAction="Content" />
+      <files include="any/netcoreapp2.1/Views/Configure.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp2.1/Views/ReturnPaymentInfo.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp2.1/Views/PaymentInfo.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp2.1/Views/_ViewImports.cshtml" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\olugb\Source\repos\eShop\src\Presentation\Nop.Web\Plugins\Payments.GTPay\Nop.Plugin.Payments.GTPay.dll" target="lib\netcoreapp2.1\Nop.Plugin.Payments.GTPay.dll" />
+    <file src="C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\logo.jpg" target="content\logo.jpg" />
+    <file src="C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\logo.jpg" target="contentFiles\any\netcoreapp2.1\logo.jpg" />
+    <file src="C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\plugin.json" target="content\plugin.json" />
+    <file src="C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\plugin.json" target="contentFiles\any\netcoreapp2.1\plugin.json" />
+    <file src="C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\Views\Configure.cshtml" target="content\Views\Configure.cshtml" />
+    <file src="C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\Views\Configure.cshtml" target="contentFiles\any\netcoreapp2.1\Views\Configure.cshtml" />
+    <file src="C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\Views\ReturnPaymentInfo.cshtml" target="content\Views\ReturnPaymentInfo.cshtml" />
+    <file src="C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\Views\ReturnPaymentInfo.cshtml" target="contentFiles\any\netcoreapp2.1\Views\ReturnPaymentInfo.cshtml" />
+    <file src="C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\Views\PaymentInfo.cshtml" target="content\Views\PaymentInfo.cshtml" />
+    <file src="C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\Views\PaymentInfo.cshtml" target="contentFiles\any\netcoreapp2.1\Views\PaymentInfo.cshtml" />
+    <file src="C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\Views\_ViewImports.cshtml" target="content\Views\_ViewImports.cshtml" />
+    <file src="C:\Users\olugb\Source\repos\eShop\src\Plugins\Nop.Plugin.Payments.GTPay\Views\_ViewImports.cshtml" target="contentFiles\any\netcoreapp2.1\Views\_ViewImports.cshtml" />
+  </files>
+</package>
